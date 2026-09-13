@@ -33,6 +33,10 @@ python -m pip install -r requirements.txt
 python3 benchmarks/run_comparison.py
 ```
 
+## Video
+
+Watch the project overview on YouTube: [Toroidal Data Compression](https://youtube.com/shorts/mJG95Av6Ig4)
+
 ## Benchmark
 
 The benchmark generates a repetitive structured telemetry payload (1.23 MB) and compares the package encoder with standard Python `zlib` compression. Results depend on the payload and local system.
