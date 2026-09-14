@@ -1,8 +1,17 @@
 # Toroidal Data Compression Core (`compression-core`)
 
-An open-source research implementation for experimenting with toroidal phase-space mappings and lossless compression of structured data streams.
+An open-source **Python data compression library** for lossless compression of structured byte streams, telemetry payloads, log files, and repetitive event data. The project provides a simple encoder/decoder API, reproducible benchmarks, and an experimental toroidal phase-space mapping for future compression research.
 
 > **Status:** Early research implementation. The included benchmark validates lossless reconstruction and high compression ratios on repetitive structured data. It is not a universal guarantee for random entropy payloads.
+
+## Features
+
+- Lossless byte-for-byte compression and decompression
+- Python API through `ToroidalEncoder` and `ToroidalDecoder`
+- Structured telemetry and log compression benchmark
+- NumPy-based toroidal manifold and phase-coordinate mapping
+- Reproducible comparison with Python's standard-library `zlib`
+- MIT-licensed open-source implementation
 
 ## Quickstart
 
